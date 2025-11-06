@@ -1,0 +1,23 @@
+.destination {
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  gap: 10px;
+}
+.destination button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.destination button:hover {
+  background-color: #0056b3;
+}
+.destination-options {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  width: 100%; 
+  max-width: 280px; 
+}

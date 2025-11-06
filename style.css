@@ -2,67 +2,75 @@
   background-image: url('destiny1.jpg');
   background-size: cover;
 }
-.fall{
-  background-image: url(backdrop.jpg);
-    background-size: cover;
-    color: black;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
+.destiny1 p{
+  font-size: larger;
 }
 .pastel{
     background-image: url(pastelmint.jpg);
     background-size: cover;
 }
 
-
-.destination {
+.pastel h1{
   text-align: center;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;   
+}
+.destination {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+align-items: center;
+  gap: 10px;
 }
 
-.destination img {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  margin-bottom: 10px; 
-}
+.destiny{
+  background-color: aliceblue;
+  padding: 50px;
+  width: 250px;}
 
 .destination button {
-  padding: 20px;
-  background:blue;
+  background-color: blue;
   color: white;
   border: none;
-  border-radius: 5px;
+  padding: 8px 16px;
+  border-radius: 4px;
   cursor: pointer;
 }
+.form{
+  padding: ;
+}
+
+.destination button:hover {
+  background-color: #0056b3;
+}
+
+
 
   header {
     color: black;
     text-align: center;
   }
   
-  nav {
+  .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:20px 25px;
+    background-color: rgba(26, 23, 23, 0.801);
   }
   
   nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;  
+    gap: 20px; 
   }
-  
-  nav a {
-    color: rgba(3, 0, 4, 0.93);
+    nav a{
+    color:white;
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
   }
-  
+  nav h1{
+      
+        color: aliceblue;
+  }
   
   .cta-button {
     display: inline-block;
@@ -71,23 +79,13 @@
     color: black;
     text-decoration: none;
     border-radius: 5px;
-        margin-top: 30px;
+    margin-top: 30px;
   }
   
-  section {
-    padding: 40px 20px;
-    margin: 20px 0;
-  }
-  
-  section ul {
-    padding-left: 20px;
-  }
   
   form input {
     padding: 10px;
-    margin-right: 10px;
     width: 250px;
-    max-width: 100%;
   }
   
   form button {
@@ -119,13 +117,46 @@ textarea{
   border-radius: 5px;
 }
 .booking label {
+  font-size: larger;
+  font-weight: bolder;
   display: flex;
-background-color: beige;
-  padding: 5px 6px;
+  padding: 10px 10px;
   border-radius: 8px;
  cursor: pointer;
 }
 .booking{
   background-image: url(blue.jpeg);
   background-size: cover;
+  padding: 30px 50px;;
 }
+
+.stat-group {
+  display: flex;
+  justify-content: center;      
+  align-items: stretch;         
+  gap: 40px;                   
+  flex-wrap: nowrap;            
+}
+.hero1{
+  text-align:center ;
+}
+.stats{
+  text-align: center;
+}
+.fally{
+  text-align: center;
+  font-size: x-large;
+}
+.destination-options {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  width: 100%; 
+  max-width: 280px; 
+}
+.form{
+  background-color: aliceblue;
+border: 2px;
+}
+
+
